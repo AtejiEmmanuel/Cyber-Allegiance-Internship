@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Upload Image - Insecure App{% endblock %}
+
+{% block content %}
+    <h1>Upload Image</h1>
+    <form method="post" enctype="multipart/form-data">
+        <div>
+            <label for="file">Select image:</label>
+            <input type="file" id="file" name="file" accept="image/*" required>
+        </div>
+        <button type="submit">Upload</button>
+    </form>
+{% endblock %}

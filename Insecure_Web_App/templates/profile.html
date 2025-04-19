@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Profile - Insecure App{% endblock %}
+
+{% block content %}
+    <h1>User Profile</h1>
+    
+    <div>
+        <p><strong>Username:</strong> {{ user.username }}</p>
+        <p><strong>Email:</strong> {{ user.email }}</p>
+        <p><strong>Account created:</strong> {{ user.created_at }}</p>
+    </div>
+    
+    <p><a href="{{ url_for('change_password') }}">Change Password</a></p>
+{% endblock %}
