@@ -39,7 +39,7 @@ git clone https://github.com/AtejiEmmanuel/Cyber-Allegiance-Internship-Private.g
 ### Step 4: Verified Git Status
 
 ```bash
-cd CyberAllegiance-Private
+cd Cyber-Allegiance-Internship-Private
 git status
 ```
 
@@ -57,7 +57,7 @@ git add Insecure_Web_App
 ### Step 6: Committed the Changes
 
 ```bash
-git commit -m "Added Insecure Web Application project"
+git commit -m "Insecure Web "
 ```
 
 ---
