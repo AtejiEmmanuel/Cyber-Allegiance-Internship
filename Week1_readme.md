@@ -31,7 +31,7 @@ As part of Week 1 of the internship, the following tasks were completed:
 ### Step 3: Cloned the Private GitHub Repository Locally
 
 ```bash
-git clone https://github.com/<your-username>/CyberAllegiance-Private.git
+git clone https://github.com/AtejiEmmanuel/Cyber-Allegiance-Internship-Private.git
 ```
 
 ---
