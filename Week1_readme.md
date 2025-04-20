@@ -17,8 +17,8 @@ As part of Week 1 of the internship, the following tasks were completed:
 ### Step 1: Created GitHub Repositories
 
 - Logged into GitHub.
-- Created a **public repository** named `CyberAllegiance-Public`.
-- Created a **private repository** named `CyberAllegiance-Private`.
+- Created a **public repository** named `Cyber-Allegiance-Internship-Public`.
+- Created a **private repository** named `Cyber-Allegiance-Internship-Private`.
 
 ---
 
