@@ -57,7 +57,7 @@ git add Insecure_Web_App
 ### Step 6: Committed the Changes
 
 ```bash
-git commit -m "Insecure Web "
+git commit -m "Insecure Web"
 ```
 
 ---
