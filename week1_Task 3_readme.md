@@ -143,7 +143,7 @@ git push
 ```
 
 This triggered my workflow, which successfully built and pushed my Docker image to my repository.
-
+![Alt text](https://github.com/AtejiEmmanuel/Cyber-Allegiance-Internship-Private/blob/main/Screenshots/Screenshot%202025-04-22%20000614.png?raw=true)
 ## My Versioning Strategy
 
 For each security improvement (v2, v3, v4):
