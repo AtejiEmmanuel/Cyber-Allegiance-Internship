@@ -71,6 +71,7 @@ sudo docker run -p 3000:3000 cref07/cyberallegiance2025-private:v0
 # Pushed my image to Docker Hub
 sudo docker push cref07/cyberallegiance2025-private:v0
 ```
+![Alt text](https://github.com/AtejiEmmanuel/Cyber-Allegiance-Internship-Private/blob/main/Screenshots/Screenshot%202025-04-22%20000208.png?raw=true)
 
 ### Step 4: GitHub Actions Automation
 
