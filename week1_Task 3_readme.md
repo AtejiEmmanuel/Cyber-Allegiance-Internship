@@ -25,6 +25,8 @@ I created a Docker Hub account and set up both public and private repositories:
   ```
 - Created my private repository: `cref07/cyberallegiance2025-private`
 
+![Alt text](https://github.com/AtejiEmmanuel/Cyber-Allegiance-Internship-Private/blob/main/Screenshots/Screenshot%202025-04-21%20235054.png?raw=true)
+
 ### Step 2: Project Configuration
 
 I created the following configuration files in my project:
