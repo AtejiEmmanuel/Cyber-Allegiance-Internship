@@ -35,3 +35,5 @@ jobs:
           tags: cref07/cyberallegiance2025-private:latest,cref07/cyberallegiance2025-private:v${{ github.run_number }}
           cache-from: type=registry,ref=cref07/cyberallegiance2025-private:latest
           cache-to: type=inline
+    build-args: |
+      ENV=production
