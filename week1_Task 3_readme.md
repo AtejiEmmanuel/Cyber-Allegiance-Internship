@@ -71,6 +71,8 @@ sudo docker run -p 3000:3000 cref07/cyberallegiance2025-private:v0
 # Pushed my image to Docker Hub
 sudo docker push cref07/cyberallegiance2025-private:v0
 ```
+![Alt text](https://github.com/AtejiEmmanuel/Cyber-Allegiance-Internship-Private/blob/main/Screenshots/Screenshot%202025-04-22%20000208.png?raw=true)
+![Alt text](https://github.com/AtejiEmmanuel/Cyber-Allegiance-Internship-Private/blob/main/Screenshots/Screenshot%202025-04-22%20000331.png?raw=true)
 
 ### Step 4: GitHub Actions Automation
 
@@ -128,6 +130,8 @@ I set up GitHub Actions to automate the building and pushing of Docker images:
    - DOCKERHUB_USERNAME
    - DOCKERHUB_TOKEN
 
+![Alt text](https://github.com/AtejiEmmanuel/Cyber-Allegiance-Internship-Private/blob/main/Screenshots/Screenshot%202025-04-22%20000456.png?raw=true)
+
 ### Step 5: Final Implementation
 
 I committed and pushed all my changes:
@@ -139,7 +143,7 @@ git push
 ```
 
 This triggered my workflow, which successfully built and pushed my Docker image to my repository.
-
+![Alt text](https://github.com/AtejiEmmanuel/Cyber-Allegiance-Internship-Private/blob/main/Screenshots/Screenshot%202025-04-22%20000614.png?raw=true)
 ## My Versioning Strategy
 
 For each security improvement (v2, v3, v4):
@@ -162,13 +166,6 @@ By implementing this automation:
 3. Deployment across environments is now consistent and reliable
 4. I can easily roll back to previous versions if needed
 5. My development workflow is significantly faster
-
-## Future Improvements
-
-I plan to enhance my implementation by:
-1. Adding Docker Compose for multi-container applications
-2. Implementing automated testing in the CI/CD pipeline
-3. Setting up staging environments for pre-production testing
 
 ## Resources I Used
 
