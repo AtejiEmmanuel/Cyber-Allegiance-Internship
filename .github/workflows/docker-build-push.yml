@@ -1,0 +1,37 @@
+name: Docker Build and Push
+
+# Trigger on push to main branch
+on:
+  push:
+    branches: [ main ]
+  # Optional: Trigger manually from GitHub interface
+  workflow_dispatch:
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Check out the repository code
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Docker Buildx
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      # Step 3: Login to Docker Hub
+      - name: Login to DockerHub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      # Step 4: Build and push Docker image
+      - name: Build and push
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          push: true
+          tags: cref07/cyberallegiance2025-private:latest,cref07/cyberallegiance2025-private:v${{ github.run_number }}
+          cache-from: type=registry,ref=cref07/cyberallegiance2025-private:latest
+          cache-to: type=inline
