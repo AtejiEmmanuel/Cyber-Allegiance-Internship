@@ -1,4 +1,4 @@
-# Use a lightweight official Python image for testing
+# Use a lightweight official Python image
 FROM python:3.11-slim
 
 # Create app directory inside container
