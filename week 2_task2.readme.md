@@ -17,7 +17,7 @@ This repository demonstrates the integration of Visual Studio with GitHub for se
 - **Version 2**: First round of security fixes
 - **Version 3**: Enhanced security features
 - **Version 4**: Comprehensive security implementation
-
+![Alt text](https://github.com/AtejiEmmanuel/Cyber-Allegiance-Internship-Private/blob/main/Screenshots/vscode2.png?raw=true)
 ### Development Cycle
 1. Develop code
 2. Identify security issues
