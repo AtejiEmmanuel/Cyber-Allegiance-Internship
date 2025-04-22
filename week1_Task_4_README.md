@@ -30,7 +30,7 @@ I wrote `hourly_task.sh` to:
 #!/bin/bash
 
 # Configuration
-WEBHOOK_URL="YOUR_WEBHOOK_URL_HERE"
+WEBHOOK_URL="https://discord.com/api/webhooks/1364020362513350786/6Y9AThPf4Kzn_BkGwdvxDWeOnI3EylPlUIZNuhIY1X196VeYjo-nsuKeFzhJ890q3NP8"
 TASK_NAME="Hourly System Check"
 
 # Function to send message to Discord via webhook
@@ -89,6 +89,13 @@ echo "The task will run at the top of every hour."
 3. Made the scripts executable using chmod
 4. Ran the setup script to configure the cron job
 5. Tested the implementation by running the task script manually
+
+## Screenshots
+![Alt text](https://github.com/AtejiEmmanuel/Cyber-Allegiance-Internship-Private/blob/main/Screenshots/hourly%20tasks.png?raw=true)
+![Alt text](https://github.com/AtejiEmmanuel/Cyber-Allegiance-Internship-Private/blob/main/Screenshots/cron%20setup.png?raw=true)
+![Alt text](https://github.com/AtejiEmmanuel/Cyber-Allegiance-Internship-Private/blob/main/Screenshots/1.png?raw=true)
+![Alt text](https://github.com/AtejiEmmanuel/Cyber-Allegiance-Internship-Private/blob/main/Screenshots/2.png?raw=true)
+![Alt text](https://github.com/AtejiEmmanuel/Cyber-Allegiance-Internship-Private/blob/main/Screenshots/3.png?raw=true)
 
 ## Problems I Solved
 
