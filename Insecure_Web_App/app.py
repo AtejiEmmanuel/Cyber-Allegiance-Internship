@@ -220,4 +220,4 @@ def create_post():
     return render_template('create_post.html')
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
+    app.run(ssl_context=('certs/server.crt', 'certs/server.key'), debug=True, host='0.0.0.0', port=8443)
